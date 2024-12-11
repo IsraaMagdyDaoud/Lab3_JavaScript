@@ -1,0 +1,98 @@
+.text-align {
+  text-align: center;
+  width: 500px;
+}
+
+.text-style {
+  width: 300px;
+  height: 10px;
+  border: 1px solid #525050;
+  border-radius: 25px;
+  padding: 10px;
+  font-size: 16px;
+  outline: none;
+}
+.task-style {
+  width: 400px;
+  height: 10px;
+  background-color: #cbc6c6;
+  border: 1px solid #525050;
+  border-radius: 25px;
+  padding: 10px;
+  font-size: 16px;
+  outline: none;
+}
+.btn-style {
+  width: 70px;
+  height: 32px;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+}
+.task-container {
+  margin-top: 10px;
+}
+.task-container.done {
+  background-color: #78c478;
+  width: 590px;
+  border-radius: 25px;
+}
+.task-container.done input {
+  background-color: #78c478;
+  color: red;
+}
+.btn-done-del-style {
+  width: 70px;
+  height: 32px;
+  padding: 5px 15px;
+  margin: 5px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+}
+
+th,
+td {
+  padding: 12px 15px;
+  border: 1px solid #ddd;
+}
+
+th {
+  background-color: #4caf50;
+  color: white;
+  font-size: 16px;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+tr:hover {
+  background-color: #d0f5d0;
+}
+
+td {
+  font-size: 14px;
+  color: #333;
+}
+
+#data-table {
+  border: 2px solid #4caf50;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.id-input {
+  width: 120px;
+  border: 1px solid #525050;
+  border-radius: 25px;
+  padding: 10px;
+  font-size: 12px;
+  outline: none;
+}

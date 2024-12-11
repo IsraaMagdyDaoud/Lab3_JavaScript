@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Lab3</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="styleSheet" href="./styles.css" />
+    <script src="./index.js" defer></script>
+  </head>
+  <body>
+    <h2>Task1:To Do List</h2>
+    <div class="text-align">
+      <input
+        type="text"
+        placeholder="Add your Task Here"
+        class="text-style"
+        id="newTask"
+      />
+      <button class="btn-style" id="addButton">Add</button>
+    </div>
+    <div id="tasks"></div>
+    <hr />
+    <div id="API"></div>
+
+    <input
+      type="number"
+      id="databyid"
+      placeholder="Enter ID to get data"
+      class="id-input"
+    />
+    <button onclick="GetDataByID()" class="btn-style">Get Data</button>
+
+    <table id="data-table">
+      <thead>
+        <tr></tr>
+      </thead>
+      <tbody></tbody>
+    </table>
+  </body>
+</html>
